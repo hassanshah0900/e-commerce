@@ -21,7 +21,7 @@ export default function Sidebar({ children }: { children?: ReactNode }) {
         isOpen && "w-[260px]"
       )}
     >
-      <div className="sidebar overflow-x-hidden overflow-y-scroll h-screen bg-background">
+      <div className="sidebar overflow-x-hidden overflow-y-auto h-screen bg-background">
         <SidebarProfile
           onSidebarToggle={() => setOpen(!isOpen)}
           imgUrl="https://vetra.laborasyon.com/assets/images/user/man_avatar3.jpg"
