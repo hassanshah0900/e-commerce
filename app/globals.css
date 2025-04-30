@@ -15,7 +15,7 @@
 body {
   color: var(--color-body);
   background-color: var(--color-background);
-  font-size: var(--text-base);
+  font-size: var(--text-sm);
 }
 
 * {
