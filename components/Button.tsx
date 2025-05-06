@@ -49,10 +49,12 @@ export default function Button({
   display = "inline",
   className,
   children,
+  type = "button",
   ...props
 }: Props) {
   return (
     <button
+      type={type}
       {...props}
       className={twMerge(
         clsx(
