@@ -5,8 +5,8 @@ import { ChangeEvent, useRef, useState } from "react";
 import { useFormContext, useWatch } from "react-hook-form";
 import { BsTrash3 } from "react-icons/bs";
 import { FaCircleUser } from "react-icons/fa6";
-import Button from "./Button";
-import { UserProfile } from "./ProfileForm";
+import Button from "../Button";
+import { UserProfile } from "./schema";
 
 interface Props {
   img?: string;
