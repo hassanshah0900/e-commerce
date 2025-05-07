@@ -18,12 +18,6 @@ export default function AccountLayout({ children }: { children: ReactNode }) {
             <SidebarItem href="/account/settings" icon={<BsYoutube />}>
               Settings
             </SidebarItem>
-            <SidebarItem href="/hello" icon={<BsYoutube />}>
-              products
-            </SidebarItem>
-            <SidebarItem href="/hello" icon={<BsYoutube />}>
-              invoices
-            </SidebarItem>
           </SidebarSection>
         </Sidebar>
 
