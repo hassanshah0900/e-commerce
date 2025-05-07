@@ -24,7 +24,7 @@ export default function SubMenu({ menuItems }: Props) {
             href={menuItem.href}
             className={clsx(
               "py-2 px-4 rounded-md transition-colors w-full text-start cursor-pointer flex items-center gap-2 focus-visible:outline  focus-visible:outline-primary",
-              pathname.startsWith(menuItem.href)
+              pathname === menuItem.href
                 ? "bg-primary-light text-primary"
                 : "hover:text-body-dark focus-visible:text-body-dark"
             )}
