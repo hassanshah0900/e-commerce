@@ -14,6 +14,7 @@ export default function AddressCard({ address }: { address: Address }) {
     <div className="bg-white rounded-lg p-6 text-body-dark flex">
       <div className="space-y-2">
         <h2 className="text-lg font-semibold mb-3">{address.title}</h2>
+        <div>{address.firstName + " " + address.lastName}</div>
         <div>{address.city}</div>
         <div>{address.address}</div>
         <div className="flex items-center gap-1">
