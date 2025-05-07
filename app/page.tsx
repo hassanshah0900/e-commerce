@@ -7,7 +7,7 @@ import { redirect } from "next/navigation";
 import { BsYoutube } from "react-icons/bs";
 
 export default function page() {
-  redirect("/account/settings/profile");
+  redirect("/account/settings");
   return (
     <div className="flex">
       <LayoutGroup>

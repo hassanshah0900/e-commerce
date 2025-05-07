@@ -7,7 +7,7 @@ const menuItems = [
   {
     label: "Profile",
     icon: <CiUser />,
-    href: "/account/settings/profile",
+    href: "/account/settings",
   },
   {
     label: "Password",
