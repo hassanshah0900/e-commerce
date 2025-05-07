@@ -18,7 +18,7 @@ export default function SidebarItem({ href, children, icon }: Props) {
       href={href}
       className={clsx(
         "flex p-2 flex-nowrap text-sm transition-all justify-start text-body-dark hover:text-primary duration-200 items-center gap-4 capitalize",
-        pathname === href
+        pathname.startsWith(href)
           ? "bg-primary-light border-s-2 border-e-2 border-primary rounded-tl-md rounded-br-md text-primary"
           : "group "
       )}
